@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.w-100{
+    width: 300px !important;
+    display: block;
+}
